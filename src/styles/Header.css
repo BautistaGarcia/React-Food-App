@@ -1,0 +1,27 @@
+.header-container {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 50px;
+
+    background: var(--primary-color);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-navBar {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-navBar {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}

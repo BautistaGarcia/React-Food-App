@@ -1,0 +1,16 @@
+
+
+.footer-container {
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+
+    position: absolute;
+    bottom: 0;
+
+    background: var(--primary-color);
+}
+
+footer {
+    max-height: 50px;
+}

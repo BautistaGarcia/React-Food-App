@@ -1,0 +1,67 @@
+
+
+.order {
+    width: 35vw;
+    height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.totalOrder {
+    width: 100%;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+}
+
+.orderSlider {
+    height: 100%;
+    padding: 2.5rem 0 5rem 0;
+}
+
+.productImageContainer {
+    width: 35%;
+    padding: 5px;
+}
+
+.product {
+    position: relative;
+    display: flex;
+}
+
+.productDescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+.deleteFromOrder-BTN {
+    position: absolute;
+    right: 5px;
+
+    padding: 2px;
+
+    color: red;
+    text-shadow: 1px 0px rgb(139, 139, 139);
+    border: 0;
+    background: transparent;
+}
+
+.submit-email {
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+}

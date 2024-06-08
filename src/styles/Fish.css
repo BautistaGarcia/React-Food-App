@@ -1,0 +1,10 @@
+
+
+.single-Fish {
+    display: flex;
+}
+
+button[disabled] {
+    background: red;
+}
+
