@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------------ */
+/*SECTION BRANDS*/
+.main__section-brands-slider {
+
+    overflow: hidden;
+    height: 200px;
+
+    /*----- Contenedor logos -----*/
+
+    .div__brands-box {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        white-space: nowrap;
+        position: relative;
+        border-radius: 8px 8px 0px 0px;
+        background-color: black;
+    }
+
+    /*----- Efecto blur/fade en ambos extremos del contenedor -----*/
+
+    .div__brands-box:before,
+    .div__brands-box:after {
+        position: absolute;
+        top: 0;
+        width: 120px;
+        height: 100%;
+        content: "";
+        z-index: 2;
+    }
+
+    .div__brands-box:before {
+        left: 0;
+        border-radius: 8px;
+        background: linear-gradient(to left, #ffffff00, #000000);
+    }
+
+    .div__brands-box:after {
+        right: 0;
+        border-radius: 8px;
+        background: linear-gradient(to right, #ffffff00, #000000);
+    }
+
+    /*----- Detener la animación -----*/
+
+    .div__brands-box:hover .div__logos-slide {
+        animation-play-state: paused;
+    }
+
+    /*----- Slider logos -----*/
+
+    .div__logos-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        animation: slide 20s linear infinite;
+        -webkit-animation: slide 20s linear infinite;
+        width: calc(200px * 14);
+        /* Para activar la animación infinita */
+    }
+
+    .a__content-image {
+        margin: 5px;
+
+        img:hover {
+            cursor: pointer;
+            filter: drop-shadow(0 0 10px var(--orange-color));
+        }
+    }
+}

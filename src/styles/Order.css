@@ -1,11 +1,14 @@
 
 
 .order {
-    width: 35vw;
-    height: 100%;
-    position: relative;
-    top: 0;
-    right: 0;
+    min-width: 200px;
+    max-width: 5%;
+    height: calc(100% - 100px);
+    position: absolute;
+    left: 50px;
+    z-index: 2;
+    background: var(--primary-color);
+
 }
 
 .totalOrder {

@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../logo.svg";
-import { formatPrice } from '../helpers.js'
+import { formatPrice } from '../scripts/helpers.js'
 
 import '../styles/Order.css';
 
@@ -17,6 +16,7 @@ class Order extends React.Component {
         Sorry { fish ? fish.name : 'the plate' } is no longer available
       </li>
     }
+
     return <li key={key}>
       {count} lbs {fish.name}
 

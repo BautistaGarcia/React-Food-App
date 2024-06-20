@@ -1,0 +1,9 @@
+
+
+.AddFishForm {
+    min-width: 200px;
+    max-width: 5%;
+    display: grid;
+
+    padding: 1rem;
+}
